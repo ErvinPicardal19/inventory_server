@@ -1,5 +1,5 @@
 const whiteList = [
-   "https://malasakit.onrender.com",
+   "https://activecycletire.onrender.com",
 ]
 
 module.exports = whiteList;

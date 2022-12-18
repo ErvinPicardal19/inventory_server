@@ -1,9 +1,9 @@
 {
   "name": "inventory_management_system",
   "version": "1.0.0",
-  "description": "Inventory Management System ",
+  "description": "Inventory Management System",
   "main": "app.js",
-  "repository": "git@github.com:ErvinPicardal19/inventory_management_system.git",
+  "repository": "https://github.com/ErvinPicardal19/activecycletire.git",
   "author": "Ervin Picardal",
   "license": "MIT",
   "dependencies": {
@@ -22,9 +22,9 @@
     "start": "node app.js",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "dev-nodemon": "set NODE_ENV=development && nodemon app.js",
-    "client": "npm start --prefix client",
+    "client": " npm start --prefix client",
     "server": "nodemon",
-    "build": "npm install"
+    "build": "npm install && npm run build --prefix client"
     
   },
   "optionalDependencies": {

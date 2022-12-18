@@ -24,7 +24,8 @@
     "dev-nodemon": "set NODE_ENV=development && nodemon app.js",
     "client": "npm start --prefix client",
     "server": "nodemon",
-    "build": "npm run build --prefix client"
+    "build": "npm install"
+    
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.7",
